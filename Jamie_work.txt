@@ -1,0 +1,54 @@
+What is a System? 
+	A system is an arrangement where all its components work according to the specific defined rules. It is a method of organizing, working, or performing one or more tasks according to a fixed plan.
+
+What is an Embedded System?
+Embedded System is a combination of computer software and hardware which is either fixed in capability or programmable. An embedded system can be either an independent system, or it can be a part of a large system. It is mostly designed for a specific function or functions within a larger system. For example, a fire alarm is a common example of an embedded system which can sense only smoke.
+
+Terminologies
+Now in this Embedded Systems tutorial, we will cover some important terms used in embedded systems.
+Reliability: This measure of the survival probability of the system when the function is critical during the run time.
+Fault-Tolerance: Fault-Tolerance is the capability of a computer system to survive in the presence of faults.
+Real-Time: Embedded systems must meet various timing and other constraints. They are imposed on it by the real-time natural behavior of the external world.
+For example, an air force department which keeps track of incoming missile attacks must precisely calculate and plan their counter-attack due to a hard real-time deadline. Otherwise, it’ll get destroyed.
+Flexibility: It’s building systems with built-in debugging opportunities which allows remote maintenance.
+For example, you are building a spacecraft which will land on another planter to collect various types of data and send collected details back to us. If this spacecraft went insane and lost control, we should be able to make some important diagnostics. So, flexibility is vital while designing an embedded system.
+Portability: Portability is a measure of the ease of using the same embedded software in various environments. It requires generalized abstractions between the application program logic itself and the low-level system interfaces.
+
+History of Embedded system
+Here, are important milestones from the history of embedded system:
+In 1960, the embedded system was first used for developing the Apollo Guidance System by Charles Stark Draper at MIT.
+In 1965, Autonetics developed the D-17B, the computer used in the Minuteman missile guidance system.
+In 1968, the first embedded system for a vehicle was released. 
+Computer chips have been used in cars since the 1970s. Solid state computers were initially used to control the engine's fuel injection system and to monitor the car's performance.
+Texas Instruments the first microcontroller and The Intel 4004 microprocessor was developed in 1971.
+In 1971, the first microcontroller was invented by two engineers at Texas Instruments, according to the Smithsonian Institution. Gary Boone and Michael Cochran created the TMS 1000, which was a 4-bit microcontroller with built-in ROM and RAM.
+That's when the Intel® 4004 became the first general-purpose programmable processor on the market—a "building block" that engineers could purchase and then customize with software to perform different functions in a wide variety of electronic devices.
+In 1987, the first embedded OS, VxWorks, was released by Wind River.
+VxWorks® is the industry's most trusted and widely deployed real-time operating system (RTOS) for mission- critical embedded systems that must be secure and safe. It delivers a proven, real-time, and deterministic runtime combined with a modern approach to development.
+In 1989, a dot matrix printer was invented. To control the movement of the pins and print characters on paper, these early printers used a simple microcontroller and a small amount of memory. It was common for these devices to be connected to specialized devices such as a cash register or a terminal, as well as to mainframe computers.
+1990 - Jean Labrosse's MicroC/OS real-time kernel was one of the most notable developments in the 1990s. It made its mark as one of the first and most widely adopted RTOSs among embedded system developers, and it was known for its efficiency and reliability.
+Another significant development in the 1990s was the introduction of Microsoft's Windows CE operating system. Embedded systems developers were provided with a more familiar and user-friendly development environment with Windows CE, which was designed specifically for embedded systems.
+In addition to MicroC/OS and Windows CE, other RTOSs that gained popularity in the 1990s included VxWorks, QNX, and Linux. These operating systems provided developers with a range of options for building embedded systems, from small and simple devices to more complex systems requiring advanced networking and multimedia capabilities.
+The development of embedded OSs in the 1990s paved the way for the growth of the embedded systems industry and enabled the development of a wide range of innovative and sophisticated devices, including smartphones, automotive systems, medical devices, and more.
+
+Characteristics of an Embedded System
+Real-time operation(reactive systems): Embedded systems are often required to respond to external events in real-time, meaning that they must respond within a predetermined time frame. For example, a control system in a car must respond quickly to changes in road conditions or driver inputs.
+Low power consumption: Many embedded systems are designed to operate on battery power or other low-power sources, and so they must be designed to minimize power consumption while still performing their required tasks.
+Limited resources: Embedded systems often have limited resources such as memory, processing power, and storage capacity. This means that the software and hardware must be carefully optimized to make the most efficient use of these resources.
+Specific functionality: Embedded systems are designed to perform specific tasks, and they are often optimized for a particular application or environment. This can make them highly efficient for their intended purpose, but less flexible than general-purpose computing systems.
+High reliability: Many embedded systems are used in safety-critical applications such as medical devices, aerospace systems, and automotive control systems. As a result, they must be designed to operate reliably and safely over long periods of time.
+Small size: Embedded systems are often designed to be compact and portable, making them suitable for use in mobile or wearable devices.
+Integration with other systems: Embedded systems are often designed to interface with other systems such as sensors, actuators, or communication networks. This requires careful consideration of communication protocols and system integration requirements.
+Overall, embedded systems are highly specialized computer systems that are designed to perform specific tasks in a reliable, efficient, and often real-time manner.
+
+Structure of the Embedded System:
+Hardware -  The hardware of embedded systems is based around microprocessors and microcontrollers. Microprocessors are very similar to microcontrollers and, typically, refer to a CPU (central processing unit) that is integrated with other basic computing components such as memory chips and digital signal processors (DSPs). Microcontrollers have those components built into one chip.
+Sensor - helps you to measure the physical quantity and converts it to an electrical signal. It also stores the measured quantity to the memory. This signal can be ready by an observer or by any electronic instrument such as A2D converter.
+A-D converter - (analog-to-digital converter) allows you to  convert an analog signal sent by the sensor into a digital signal.	
+Memory - is used to store information. Embedded System majorly contains two memory cells 1) Volatile 2) Non volatile memory.
+Processors & ASICs - This component processes the data to measure the output and store it to the memory.
+D-A converter - change the digital data from the processor into analog data.
+Actuator - allows you to compare the output given by the D-A converter to the actual output stored in it and stores the approved output in the memory.
+Software/Firmware - Software for embedded systems can vary in complexity. However, industrial-grade microcontrollers and embedded IoT systems usually run very simple software that requires little memory.
+Real time OS - these are not always included in embedded systems, especially smaller-scale systems. RTOSes define how the system works by supervising the software and setting rules during program execution.
+
