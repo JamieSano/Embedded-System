@@ -1,0 +1,26 @@
+Types of Embedded Systems
+Embedded systems can be categorized based on:
+Performance and Functional requirements
+Performance of the Microcontroller 	
+	Based on Performance and Functional requirements:
+Real Time Embedded Systems - Real-time embedded systems provide outputs within a specific timeframe. They prioritize time-based task performance, which generates quick responses in crucial situations. These types of embedded systems are commonly used in industries such as defense, healthcare, and manufacturing.
+Soft Real Time Embedded Systems - timing constraints that are not critical, and occasional missed deadlines can be tolerated without devastating consequences.
+Hard Real Time Embedded Systems - have critical timing constraints, and missed deadlines can result in severe consequences, such as system failure or safety hazards.
+Stand Alone Embedded Systems - Stand Alone Embedded Systems are independent systems which can work by themselves without relying on external devices or systems. These systems can operate independently, without the need for a connection to a larger network or host system. Input can be received via sensors, keyword or push button.
+Networked Embedded Systems - Networked Embedded Systems are a type of computer system that rely on a connected network to perform their tasks. They consist of interconnected components such as sensors and controllers, and are often built on general purpose processors. These systems communicate through a network, which can be wired or wireless, and provide output to attached devices, typically through an embedded web server.
+Mobile Embedded Systems - Mobile Embedded Systems are small-sized systems commonly used in devices like mobile phones and digital cameras due to their compactness. These systems typically have limited memory. Despite these constraints, mobile embedded systems are popular due to their portability and resource efficiency, making them the preferred choice for many applications.
+Microprocessor vs Microcontroller
+Microprocessors are designed to execute general-purpose computing tasks and handle complex instructions. They provide support for external memory and I/O ports, which require more space, are more expensive, and can result in higher power consumption.
+In contrast, microcontrollers are used for application-specific systems. All memory components and I/O functions are integrated into a single chip. Microcontrollers are typically more power-efficient and less expensive than microprocessors. As they are specifically designed to efficiently execute a specific low-power application, they are ideal for embedded systems.
+	Based on Performance of the Microcontroller:
+Small Scale Embedded Systems -  Small Scale Embedded Systems are created with microcontrollers that have 8-bit or 16-bit capacity and can be operated using a battery. The processor used in these systems has minimal memory and processing speed requirements.
+Medium Scale Embedded Systems - Medium-scale embedded systems are developed using microcontrollers with 16 or 32-bit capacity. These systems involve both hardware and software complexities and are programmed using languages such as Java, C, and C++. Various software tools, such as compilers, debuggers, and simulators, are also used in their development.
+Sophisticated or Complex Embedded Systems - Sophisticated embedded systems are designed using multiple 32-bit or 64-bit microcontrollers. They are created to perform complex functions on a large scale and involve high levels of hardware and software complexity, which are combined to create the final system or hardware product.
+The Application Areas of Embedded Systems.
+Some application areas of Embedded Systems are the following:
+Consumer Electronics - Embedded systems are widely used in consumer electronics such as digital cameras, computer printers, video game consoles; home appliances, automation, and entertainment systems like PS4.
+Medical Equipment - These systems are used in medical devices such as pacemakers, insulin pumps, and blood glucose monitors. Scanners like those for MRI, CT, ECG machines.
+Automobiles - Embedded systems are used in vehicles for various functions such as engine control, safety features, navigation, and entertainment systems.
+Industrial Control - It is used to control and automate industrial processes such as manufacturing, assembly lines, systems for data collection, and robotics.
+Aerospace and Defense - Aerospace and defense applications, such as satellite communication, missile guidance, and unmanned aerial vehicles (UAVs), make use of embedded systems.
+Telecommunications - This field also utilizes embedded systems including routers, switches, modems, and base stations.
